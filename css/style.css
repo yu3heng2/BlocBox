@@ -1,0 +1,57 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color: #33333;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Open-Sans", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+}
+
+
+h2 {
+  font-family: "Open-Sans", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+}
+
+h3, h4, h5, h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 300;
+}
+
+/* GRID */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.one-half, .one-third, .one-forth {
+  width: 96%
+  float: left;
+  position: relative;
+  min-height: 1px;
+  margin: 0 2% 20px;
+}
