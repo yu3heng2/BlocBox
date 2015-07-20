@@ -37,6 +37,7 @@ p {
    padding-right: 15px;
    position: relative;
  }
+ 
  .container:before,
  .container:after {
    content: " ";
@@ -78,7 +79,10 @@ p {
    }
  }
 
+ @media (min-width: 700px) {}
+
 /* HEADER */
+
 header {
   color: #FFFFFF;
   background: #34495E;
@@ -114,7 +118,6 @@ header {
  header nav ul > li.btn-outline:hover > a {
    color:#34495E;
  }
-
   header .hero {
    text-align: center;
    display:block;
@@ -150,5 +153,13 @@ header {
    background: #018E91;
    border: 2px solid #018E91;
    box-shadow: 0px 2px 0px 0px #959595;
+ }
+
+ /* BENEFITS */
+
+.benefits {
+  text-align: left;
+  display: block;
+  position: left;
  }
 
