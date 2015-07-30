@@ -16,20 +16,26 @@
  </head>
 
  <body>
+ 
 <!--Hero-->
 <header>
+<div class="navigation">
+<span style="font-size: 9px">
+</span>
 <nav class="container">
   <div class="one-half">
-    <a href="index.html" class="site-logo"><img src="images/blocbox_logo.png" alt="BlocBox"></a>
-  </div>
-
+    <span style="font-size: 9px"><a href="index.html" class="site-logo"><img src="images/blocbox_logo.png" alt="BlocBox"></a>
+    </span></div>
+  
   <div class="one-half">
     <ul>
-    <li><a href="signin.html">Sign In</a></li>
-    <li class="btn-outline"><a href="signup.html">Sign Up</a></li>
-    </ul>
-  </div>
-</nav>
+      <li><a href="signin.html">Sign In</a></li>
+      <li class="btn-outline"><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </div>
+    <span style="font-size: 9px">
+    </div>
+  </span></nav>
 
 <div class="container hero">
   <h1 class="animated fadeIn">Save, share and collaborate.</h1>
@@ -40,55 +46,66 @@
 </header>
 <main role="main">
 
+
 <!--Benefits-->
 <section class="benefits">
-  <ul class="container">
-    <li class="one-half first">
-      <i class="fa fa-file-o"></i>
-      <h2>Create Notes</h2>
-      <p>Using Markdown, you can create simple text-based documents to save and share. You can collaborate with others to write and edit content.</p>
+    <ul class="container">
       <li class="one-half">
-      <li><img src="images/create_notes.jpg" alt="Add links"></li>
-    </li>    
-    <li class="one-half first">
-      <li><img src="images/save_images.jpg" alt="Add links"></li>
-      <i class="fa fa-picture-o"></i>
-      <h2>Save Images</h2>
-      <p>Are there images you find interesting enough to save? Now you have a way to organize and store those within blocbox.</p>
+       <i class="fa fa-file-o"></i>
+        <h2>Create notes</h2>
+        <p>Using Markdown, you can create simple text-based documents to save and share. You can collaborate with others to write and edit content.</p>
+        <li class="one-half">
+        <img src="images/create_notes.jpg" alt="create notes">
+        </li>
+
+      <li class="one-half">
+        <img src="images/save_images.jpg" alt="save images">
+        </li>
+       <li class="one-half">
+       <i class="fa fa-picture-o"></i>
+        <h2>Save images</h2>
+        <p>Are there images you find interesting enough to save? Now you have a way to organize and store those within blocbox.</p>
       </li>
-    <li class="one-half first">
-      <i class="fa fa-link"></i>
-      <h2>Add Links</h2>
+
       <li class="one-half">
-      <li><img src="images/add_links.jpg" alt="Add links"></li>
-      <p>Forget bookmarking sites in your browser. With blocbox, you can add links, group them and view them from any computer.</p>
-    </li>
-  </ul>
+       <i class="fa fa-link"></i>
+        <h2>Add links</h2>
+        <p>Forget bookmarking sites in your browser. With blocbox, you can add links, group them and view them from any computer.</p
+        <li class="one-half">
+        <img src="images/add_links.jpg" alt="add links">
+      </li>
+    </ul>
 </section>
+
 
 <!-- Testimonials -->
 <section class="testimonials">
-  <div class="container">
+  <div class="container"> 
     <ul class="container">
-    <li class="one-half"
-      <blocquote>"Forget bookmarking sites in your browser, With BlocBox, you can add links, group them and view them from any computer."</blocquote>
+    <li class="quotes">
+      <p>"Forget bookmarking sites in your browser, With BlocBox, you can add links, group them and view them from any computer."</p>
+    <li class="person">
+      <p>— Stella B. Freelance designer, N. Dakota</p>
       <img src="images/testimonial_profile1.png" alt="Profile 2">
     </li>
   </ul>
   </div>
 </section>
 
+
 <!-- Pricing -->
 <section class="pricing">
-  <div class="container">
-    <h2>How Much does BlocBox Cost?</h2>
-    <p>We have many options to fit your needs. It's free to try for 30 days*, and you can always change your plan once you signed up. <br/>Here are the different features of each plan:</p>'
+    <h2 class="money">How Much does BlocBox Cost?</h2>
+    <p>We have many options to fit your needs. It's free to try for 30 days*, and you can always change your plan once you signed up. <br/>Here are the different features of each plan:</p>
   </div>
   <ul class="container">
     <li class="one-third">
-      <div class="box">
+    <div class="box">
+      <div class="box1">
         <h3>Basic</h3>
         <h4>Free</h4>
+        <h2>per month</h2>
+        </div>
         <ul>
           <li>Up to 5 boxes</li>
           <li>Up to 10 collaborators</li>
@@ -98,10 +115,12 @@
       </div>
     </li>
   <li class="one-third">
-      <div class="box">
+  <div class="box">
+      <div class="box2">
         <h3>Professional</h3>
         <h4>$5</h4>
         <h2>per month</h2>
+        </div>
         <ul>
           <li>Unlimited boxes</li>
           <li>Up to 20 collaborators</li>
@@ -112,10 +131,12 @@
       </div>
     </li>
     <li class="one-third">
-      <div class="box">
+    <div class="box">
+      <div class="box3">
         <h3>Expert</h3>
         <h4>$10</h4>
         <h2>per month</h2>
+        </div>
         <ul>
           <li>Unlimited boxes</li>
           <li>Unlimited collaborators</li>
@@ -128,8 +149,29 @@
   </ul>
 </section>
 
-</main>
-  </header>
+
+ <!-- Footer -->
+ <footer>
+ <div id="" ="footer">
+   <div class="container footer-nav-block">
+       <div class="left-footer-block one-third">
+         <p class="copyright-block">&copy; 2015. <strong>Blocbox</strong> - All Rights Reserved.</p>
+       </div>
+       <nav class="link-block middle-footer-block one-third">
+         <ul>
+           <li><a href="">Terms</a></li> /
+           <li><a href="">Privacy Policy</a></li> /
+           <li><a href="">Contact Us</a></li> /
+           <li><a href="">About Us</a></li> /
+           <li><a href="">Twitter</a></li>
+         </ul>
+       </nav>
+       <div class="right-footer-block one-third">
+         <img class="logo" src="images/blocbox_logo.png" alt="Blocbox" />
+       </div>
+   </div>
+ </footer>
+
 
  </body>
  </html>
